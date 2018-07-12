@@ -1,0 +1,126 @@
+
+/* htmlのタグ */
+body {
+
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* ブートストラップのクラス */
+.row{
+    width: 100%;
+    height: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.col-2 {
+    padding: 0px;
+}
+.col-8 {
+    padding: 0px;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+/* 
+custom
+*/
+.column-head {
+    height: 10vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;  /* make main axis vertical */
+    justify-content: center; /* center items vertically, in this case */
+    align-items: center;     /* center items horizontally, in this case */    
+    background-color: grey;
+}
+
+.column-body {
+    height: 75vh;
+    width: 100%;
+    background-image: url("./assets/free_020.jpg")
+}
+
+.column-bottoms {
+    height: 15vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./assets/free_020.jpg")
+}
+
+.reel {
+    background-color: #FEF8FF;
+    margin-top: 10%; 
+    margin-bottom: 5%; 
+    display: flex;
+    flex-direction: column;  /* make main axis vertical */
+    justify-content: center; /* center items vertically, in this case */
+    align-items: center;     /* center items horizontally, in this case */
+}
+
+.reel-left {
+    margin-right: 3%;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#E2E2E2), to(#CCCCCC), color-stop(1,#CCCCCC));
+  
+    border:2px solid gray;
+  
+    box-shadow: inset 5px 5px 5px rgba(12, 10, 10, 0.25);
+    -moz-box-shadow: inset 5px 5px 5px rgba(12, 10, 10, 0.25);
+    -webkit-box-shadow: inset 5px 5px 5px rgba(12, 10, 10, 0.25);
+}
+
+.reel-center {
+    margin-right: 3%;
+    margin-left: 3%;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#E2E2E2), to(#CCCCCC), color-stop(1,#CCCCCC));
+  
+    border:2px solid gray;
+  
+    box-shadow: inset 5px 5px 5px rgba(12, 10, 10, 0.25);
+    -moz-box-shadow: inset 5px 5px 5px rgba(12, 10, 10, 0.25);
+    -webkit-box-shadow: inset 5px 5px 5px rgba(12, 10, 10, 0.25);
+}
+
+.reel-right {
+    margin-left: 3%;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#E2E2E2), to(#CCCCCC), color-stop(1,#CCCCCC));
+  
+    border:2px solid gray;
+  
+    box-shadow: inset 5px 5px 5px rgba(12, 10, 10, 0.25);
+    -moz-box-shadow: inset 5px 5px 5px rgba(12, 10, 10, 0.25);
+    -webkit-box-shadow: inset 5px 5px 5px rgba(12, 10, 10, 0.25);
+
+}
+
+.square_btn{
+    width: 70%;
+    height: 60%;
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #668ad8;/*ボタン色*/
+    color: #FFF;
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+}
+.square_btn:active {/*ボタンを押したとき*/
+    width: 70%;
+    height: 60%;
+    -ms-transform: translateY(4px);
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);/*下に動く*/
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);/*影を小さく*/
+    border-bottom: none;
+}
